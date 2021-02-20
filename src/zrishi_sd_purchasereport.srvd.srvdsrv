@@ -1,0 +1,10 @@
+@EndUserText.label: 'Purchase Report'
+define service ZRISHI_SD_PurchaseReport {
+  expose ZC_RISHI_PurchaseReport;
+  expose ZC_RISHI_PurchaseItems;
+  expose ZI_RISHI_PurchaseDetails;
+  expose ZI_RISHI_PurchaseItems;
+  expose ZI_RISHI_PurchaseDocTotalPrice;
+  expose ZI_RISHI_POPriority;
+  expose ZI_RISHI_POStatus;
+}
